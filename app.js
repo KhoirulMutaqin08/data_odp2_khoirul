@@ -122,8 +122,10 @@ kmlInput.addEventListener('change', async (e) => {
 });
 
 btnOpenSheet.addEventListener('click', () => {
-  const ssId = '13T-Bj8luBODdqzo2pLI-QRANAET1ooQe/edit?gid=1090064673#gid=1090064673';
-  btnOpenSheet.setAttribute('href', `https://docs.google.com/spreadsheets/d/${ssId}`);
+  const ssId = '13T-Bj8luBODdqzo2pLI-QRANAET1ooQe';
+  btnOpenSheet.setAttribute('href', 
+    `https://docs.google.com/spreadsheets/d/${ssId}`
+  );
 });
 
 // Upload polygon
